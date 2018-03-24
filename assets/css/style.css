@@ -1,0 +1,119 @@
+/*Colors Used
+Pink #FF5075
+Lighter Pink #FE7895
+Even Lighter Pink #FF9CB1
+Yellow #fedf40
+
+/*Homepage =======================================================================*/
+html, body{
+	margin, padding: 0;
+   	height, width: 100%;
+   	text-align: center;
+   	margin: auto;
+}
+
+h1{
+	font-family: "Oswald", sans-serif;
+	font-size:80px;
+	padding-top: 200px;
+}
+
+/*Navigation*/
+nav{
+	padding: 20px;
+}
+
+nav a{
+	font-family: "Montserrat", sans-serif;
+	color:black;
+	padding:10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size:13px;
+}
+
+nav a:hover{
+	color:#fedf40;
+	text-decoration: none;
+}
+
+/*Portfolio Page =======================================================================*/
+.page{
+	overflow: hidden;
+  	position: relative;
+  	height: 100vh;
+}
+
+#page-two, #page-three, #project-one{
+	background-color: black;
+	overflow: hidden;
+  	position: relative;
+  	height: 100vh;
+  	color: lightgrey;
+}
+
+h2{
+	font-family: "Oswald", sans-serif;
+	text-align: right;
+	font-size: 200px;
+	margin: 0px 50px 50px 0px; 
+	color: white;
+}
+
+p{
+	font-family: "Montserrat", sans-serif;
+	text-align: right;	
+	font-size: 14px;
+	margin-right: 50px;
+}
+
+#prof-pic{
+	margin-left: -115px;
+	margin-bottom: -1%;
+}
+
+#page-three{
+	background-color: #fedf40;
+	background:radial-gradient(#fedf40, #FFEA7E);
+}
+
+button, button a:visited{
+	margin:auto;
+	text-transform: uppercase;
+	background-color: #fedf40;
+	font-family: "Montserrat", sans-serif;
+	margin-top:21%;
+	font-weight: bold;
+	font-size: 30px;
+	border:2px solid white;
+	color: white
+}
+
+button:hover{
+	color:black;
+	border:2px solid black;
+	cursor:pointer;
+}
+
+/*Projects*/
+
+#project-one{
+	background-color: white;
+}
+
+h6{
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	font-size: 50px; 
+	color: darkgrey;
+	margin: auto;
+}
+
+.project-explanation{
+	width:200px;
+	color:#fedf40;
+}
+
+
+
+
